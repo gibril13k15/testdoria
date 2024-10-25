@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commentaires</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heart-cursor" id="heart-cursor"></div>
+
+    <div class="hero-section">
+        <h1>Laissez un Commentaire</h1>
+        <p>Nous aimerions savoir ce que vous pensez !</p>
+        <button class="back-button" onclick="goBack()">Retour</button> <!-- Bouton de retour -->
+    </div>
+
+    <section class="comment-section">
+        <h2>Votre Commentaire</h2>
+        <form id="commentForm">
+            <textarea id="commentInput" rows="5" placeholder="Écrivez votre commentaire ici..."></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+        <div id="commentList"></div>
+    </section>
+
+    <footer>
+        <p>Créé avec amour et style pour toi</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
